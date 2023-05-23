@@ -44,6 +44,10 @@ ${data.description}
 ${data.installation}
 ## Usage
 ${data.usage}
+## Contact Me
+* Name - ${data.name}
+* Github - ${data.github}
+${renderLicenseSection(data.license)}
 `;
 }
 
