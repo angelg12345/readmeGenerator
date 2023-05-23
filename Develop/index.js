@@ -27,6 +27,16 @@ const questions = ([
         message:'which kind of license would you like?',
         choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None']
     },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What are the steps required to install your project?'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'provide instructions and examples for use.'
+    }
 ]);
 
 // TODO: Create a function to write README file
